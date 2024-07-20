@@ -20,7 +20,7 @@
     --white: white;
     --whitesmoke:  #F5F5F7;
     --blur: #ffffffb9;
-    --theme:#f0c758;
+    --theme:#ccb263;
     --placeholdercolor:#86868b;
     --ctacolor: #50ff39;
     --accordioncolor:#010101e7;
@@ -32,7 +32,7 @@
     --white: #010101;
     --whitesmoke: #1C1C1F;
     --blur: #000000b9;
-    --theme:#983eff;
+    --theme:#7132b8;
     --placeholdercolor:#6a6a6b;
     --ctacolor: #1d860f;
     --accordioncolor:#ffffffe7;
@@ -95,9 +95,14 @@ nav{
     align-items: center;
 }
 
-.nav_content .material-icons{
+/*.nav_content .material-icons{
     background: none;
     font-size: 17px;
+}*/
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav_content button{border: 0px;}
