@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hackly - Join The Waitlist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://getlaunchlist.com/js/widget.js" defer></script>
+    <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
 </head>
+
 <body>
-    <h1>Welcome</h1>
+    <nav>
+        <div class="nav_content">
+            <p><strong class="logo">Hackly</strong></p>
+            <button onclick="myFunction()">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                    <!--<i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>-->
+                    <span class="material-icons" id="moon">dark_mode</span>
+                    <span class="material-icons" id="sun">light_mode</span>
+                    <span class="ball"></span>
+                </label>
+            </button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="content">
+            <div class="one_liner">
+                <p><strong>Hackly is a wiki-style hackathon to design solutions through online discussions.</strong></p>
+                <br><br>
+                <form class="launchlist-form" action="https://getlaunchlist.com/s/vIo1Lq" method="POST">
+                    <input name="email" type="email" placeholder="Email">
+                    <button type="submit" class="cta">Get Early Access</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="sub_img"></div>
+    <div class="img_credits"><a href="#">Illustration by rdm_dg</a></div>
+
+    <section class="faq_section">
+        <div class="content">
+            <h2>Questions & Answers</h2>
+            <ul class="accordion">
+                <li class="accordion__item">
+                    <input type="checkbox" checked>
+                    <i class="accordion__arrow"></i>
+                    <h3 class="accordion__title">How does it work ?</h3>
+                    <p class="accordion__content">Like other hackathons, we bring talent together to work on a mutual problem. However, we don't divide the community into teams. Anyone can contribute to existing ideas or create their own solution from scratch and improve it with input from other community members. This allows everyone to work on what they want, when they want.</p>
+                </li>
+                <li class="accordion__item">
+                    <input type="checkbox" checked>
+                    <i class="accordion__arrow"></i>
+                    <h3 class="accordion__title">What about IP Rights ?</h3>
+                    <p class="accordion__content">All solutions will be open source and freely accessible. This transparency ensures that everyone can benefit from and build upon the shared knowledge.</p>
+                </li>
+                <li class="accordion__item">
+                    <input type="checkbox" checked>
+                    <i class="accordion__arrow"></i>
+                    <h3 class="accordion__title">What skills do I need to participate ?</h3>
+                    <p class="accordion__content">The solution takes the form of a whitepaper explaining the idea, its implementation, and its potential impact. Unlike traditional crowdsourcing, you don't need to provide complete solutions on your own. You can contribute technically, graphically, through design, or even writing. Questions and half-baked ideas are also encouraged and considered as contributions, as they spark discussions and help refine the solution.</p>
+                </li>
+                <li class="accordion__item">
+                    <input type="checkbox" checked>
+                    <i class="accordion__arrow"></i>
+                    <h3 class="accordion__title">Why join the waitlist ?</h3>
+                    <p class="accordion__content">We are initially limiting participation to the first 100 sign-ups to help us find sponsors and propose initial projects. It's free, and we will only contact you for relevant updates and opportunities (no ads, spam, etc).</p>
+                </li>
+                <li class="accordion__item">
+                    <input type="checkbox" checked>
+                    <i class="accordion__arrow"></i>
+                    <h3 class="accordion__title">Why change the way hackathons work ?</h3>
+                    <p class="accordion__content">Traditional hackathons often face several issues that our community addresses by fostering a collaborative, transparent, and supportive environment where everyone can contribute meaningfully and at their own pace. These challenges include:
+                        <br><br>Surface solutions: Frontend projects often dominate, and winning ideas are repeated year after year with limited real-world application.
+                        <br><br>Cheating and unethical behavior: Plagiarism, code copying, and extensive pre-preparation are common, along with pre-formed teams.
+                        <br><br>Barrier to entry: Here, no need to find a team, submit complete solutions on complex and interdisciplinary topics on our own, finish sleep deprived because we work 48hrs straight in stressful and unhealthy working conditions.
+                    </p>
+                </li>
+            </ul> 
+        </div>
+    </section>
+    
+    <footer>
+        <div class="content">
+            <p>You can contact us by email at hellohackly@gmail.com, and join the waitlist below !</p>
+            <br><br>
+            <form class="launchlist-form" action="https://getlaunchlist.com/s/vIo1Lq" method="POST">
+                <input name="email" type="email" placeholder="Email">
+                <button type="submit" class="cta">Get Early Access</button>
+            </form>
+        </div>
+    </footer>
 </body>
+
 </html>
